@@ -11,11 +11,11 @@ A CNN model is used to test the MNIST dataset and predict the value of the handw
 |:---------:|:--------:|:--------:|:-----------:|:---------------:|
 | Conv1   |  28x28x1 | 26x26x14 |     3x3     |        3        |
 | Conv2   | 26x26x14 | 24x24x30 |     3x3     |        5        |
-| Pool1   | 24x24x30 | 12x12x30 |     2x2     |        6       |
-| Conv3   | 12x12x30 | 12x12x14 |     1x1     |        10       |
-| Conv4   | 12x12x14 | 10x10x30 |     3x3     |        14       |
-| Conv5   | 10x10x30 |  8x8x39  |     3x3     |        18       |
-| Conv6   |  8x8x39  |  8x8x10  |     1x1     |        22       |
+| Pool1   | 24x24x30 | 12x12x30 |     2x2     |        10       |
+| Conv3   | 12x12x30 | 12x12x14 |     1x1     |        14       |
+| Conv4   | 12x12x14 | 10x10x30 |     3x3     |        18       |
+| Conv5   | 10x10x30 |  8x8x39  |     3x3     |        22       |
+| Conv6   |  8x8x39  |  8x8x10  |     1x1     |        26       |
 | AvgPool |  8x8x10  |  1x1x10  |      -      |               |
  
 ### Model parameters
